@@ -43,8 +43,8 @@ where, the "Number of total components of all arrays" is the sum of number of co
     Array B: size b * m
     Array C: size c * m
 
-Then the output array is of size (a+b+c) * m, and is written as follow
-
+Then the output array is of size ``(a+b+c) * m``, and is written as follow
+:
                   Column 1         Column 2         Column 3
 
     First row:    A11 A12 A13 ...  B11 B12 B13 ...  C11 C12 C13 ...
@@ -60,7 +60,7 @@ Then the output array is of size (a+b+c) * m, and is written as follow
 
        sudo apt-get install g++ libomp-dev cmake -y
 
-2. Install *VTK *development:
+2. Install *VTK* development:
 
        sudo apt install libvtk5-dev -y
 
